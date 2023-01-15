@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 
 public class Conexion {
   public static final String URL="jdbc:mysql://localhost:3306/inventarios?autoReconnect=true&useSSL=false";
-    public static final String usuario="root";
-    public static final String contraseña="18011272";
+    public static final String usuario=" ";
+    public static final String contraseña=" ";
     
     public Connection getConnection(){
         Connection conexion=null;
